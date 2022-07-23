@@ -1,0 +1,10 @@
+{
+    "hook_base": "http://localhost:8123/api/webhook/",
+    "devices": {
+        "AC": {
+            "HEAT": "ac-heat-L0GIRpcP9k-YI5F_37vtK61L",
+            "COOL": "ac-cool-QRmlVSafAtCa4OwpQaehEtC4",
+            "OFF": "ac-off-TgA5B7N5TZmNenOs8RB1p0qw"
+        }
+    }
+}
