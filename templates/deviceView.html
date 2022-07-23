@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>{{ device["name"] }}</title>
+    </head>
+    <body>
+        <h1>{{ device["name"] }}</h1>
+        {% for function in device["functions"] %}
+        <form method="post" action="/device/{{device["name"]}}/{{function}}">
+           <button type="Submit">{{function}}</button> 
+        </form>
+        {% endfor %}
+    </body>
+</html>
