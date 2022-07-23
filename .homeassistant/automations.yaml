@@ -1,0 +1,28 @@
+- id: '1655271091727'
+  alias: AC_off
+  description: ''
+  trigger:
+  - platform: webhook
+    webhook_id: ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU
+  condition: []
+  action:
+  - device_id: 12788f3b5048cdc6eb9e529df277c814
+    domain: climate
+    entity_id: climate.daikin_ac
+    type: set_hvac_mode
+    hvac_mode: 'off'
+  mode: single
+- id: '1658556873826'
+  alias: AC_on
+  description: ''
+  trigger:
+  - platform: webhook
+    webhook_id: ac-on-kxNGGNNWQDYgRXM3muSYjnFb
+  condition: []
+  action:
+  - device_id: 12788f3b5048cdc6eb9e529df277c814
+    domain: climate
+    entity_id: climate.daikin_ac
+    type: set_hvac_mode
+    hvac_mode: heat
+  mode: single

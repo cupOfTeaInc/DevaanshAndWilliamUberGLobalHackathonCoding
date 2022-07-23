@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "7ed5f7e60b746ac533f7ace723bddda0"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "747f901d46eb06ada0d46bb60a191bef",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://www.met.no/en"
+            },
+            {
+                "config_entries": [
+                    "f84a169591ac544add573db87b5cc7a5"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "19:2.:16:8.:1.:64"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Daikin",
+                "model": "NOTSUPPORT",
+                "name": null,
+                "sw_version": "",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "12788f3b5048cdc6eb9e529df277c814",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

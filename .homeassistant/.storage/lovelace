@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "theme": "Backend-selected",
+                    "title": "Home",
+                    "path": "home",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.daikin_ac_inside_temperature",
+                                "sensor.daikin_ac_outside_temperature"
+                            ]
+                        },
+                        {
+                            "type": "thermostat",
+                            "entity": "climate.daikin_ac"
+                        },
+                        {
+                            "show_name": true,
+                            "show_icon": true,
+                            "type": "button",
+                            "tap_action": {
+                                "action": "call-service",
+                                "service": "homeassistant.stop",
+                                "data": {},
+                                "target": {}
+                            },
+                            "entity": "",
+                            "icon": "mdi:power",
+                            "name": "Stop Home Assistant"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

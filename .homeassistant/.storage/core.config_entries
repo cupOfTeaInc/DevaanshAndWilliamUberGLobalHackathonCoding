@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "4341048f0d501d0830033ad216d49b6d",
+                "version": 1,
+                "domain": "sun",
+                "title": "Sun",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7ed5f7e60b746ac533f7ace723bddda0",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "eff37c8e107c68d1df238d3f3f94b9af",
+                "version": 1,
+                "domain": "radio_browser",
+                "title": "Radio Browser",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f84a169591ac544add573db87b5cc7a5",
+                "version": 1,
+                "domain": "daikin",
+                "title": "192.168.1.64",
+                "data": {
+                    "host": "192.168.1.64",
+                    "mac": "192.168.1.64",
+                    "api_key": null,
+                    "uuid": null,
+                    "password": null
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "204EF6A6C275",
+                "disabled_by": null
+            }
+        ]
+    }
+}

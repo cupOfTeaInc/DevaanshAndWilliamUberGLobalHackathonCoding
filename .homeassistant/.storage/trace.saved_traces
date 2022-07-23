@@ -1,0 +1,975 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "automation.1655271091727": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "2199db2b32ca4e91d81433ee299c3d7b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:09:51.722301+00:00",
+            "finish": "2022-07-23T06:09:51.956656+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2022-07-23T06:09:51.722393+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_webhook",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:09:37.744499+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1655271091727",
+                      "friendly_name": "AC_off"
+                    },
+                    "last_changed": "2022-07-23T06:08:41.980476+00:00",
+                    "last_updated": "2022-07-23T06:09:37.983938+00:00",
+                    "context": {
+                      "id": "01G8MTSXYG0KSXK952E12G0VH4",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": "webhook",
+                    "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU",
+                    "data": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "query": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "description": "webhook",
+                    "id": "0",
+                    "idx": "0"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:09:51.724043+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTTBKAN36A55VSDQEX5ASY",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1655271091727",
+            "alias": "AC_off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "off"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTTBKAN36A55VSDQEX5ASY",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "2199db2b32ca4e91d81433ee299c3d7b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:09:51.722301+00:00",
+            "finish": "2022-07-23T06:09:51.956656+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "95557e32137e5c3269fefb936d6eb54e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:10:36.725443+00:00",
+            "finish": "2022-07-23T06:10:36.960338+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2022-07-23T06:10:36.725550+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_webhook",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:09:51.722570+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1655271091727",
+                      "friendly_name": "AC_off"
+                    },
+                    "last_changed": "2022-07-23T06:08:41.980476+00:00",
+                    "last_updated": "2022-07-23T06:09:51.955697+00:00",
+                    "context": {
+                      "id": "01G8MTTBKAN36A55VSDQEX5ASY",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": "webhook",
+                    "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU",
+                    "data": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "query": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "description": "webhook",
+                    "id": "0",
+                    "idx": "0"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:10:36.726619+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTVQHNGTMJW6R75A42YWNR",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1655271091727",
+            "alias": "AC_off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "off"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTVQHNGTMJW6R75A42YWNR",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "95557e32137e5c3269fefb936d6eb54e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:10:36.725443+00:00",
+            "finish": "2022-07-23T06:10:36.960338+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "f43f0d24dc5837942d6296a77b3533af",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:11:47.302701+00:00",
+            "finish": "2022-07-23T06:11:47.539003+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2022-07-23T06:11:47.302767+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_webhook",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:10:36.725732+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1655271091727",
+                      "friendly_name": "AC_off"
+                    },
+                    "last_changed": "2022-07-23T06:08:41.980476+00:00",
+                    "last_updated": "2022-07-23T06:10:36.959907+00:00",
+                    "context": {
+                      "id": "01G8MTVQHNGTMJW6R75A42YWNR",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": "webhook",
+                    "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU",
+                    "data": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "query": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "description": "webhook",
+                    "id": "0",
+                    "idx": "0"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:11:47.303569+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTXWF62SE41XKD4G54AWXS",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1655271091727",
+            "alias": "AC_off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "off"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTXWF62SE41XKD4G54AWXS",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "f43f0d24dc5837942d6296a77b3533af",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:11:47.302701+00:00",
+            "finish": "2022-07-23T06:11:47.539003+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "d2813e4c846dc0ff543d9208c6ad2ea2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:12:06.965688+00:00",
+            "finish": "2022-07-23T06:12:07.211573+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2022-07-23T06:12:06.965763+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_webhook",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:11:47.302886+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1655271091727",
+                      "friendly_name": "AC_off"
+                    },
+                    "last_changed": "2022-07-23T06:12:01.417348+00:00",
+                    "last_updated": "2022-07-23T06:12:01.417348+00:00",
+                    "context": {
+                      "id": "01G8MTYA89M6RSVKK7HFSZJK0W",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": "webhook",
+                    "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU",
+                    "data": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "query": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "description": "webhook",
+                    "id": "0",
+                    "idx": "0"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:12:06.966984+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTYFNNRF452VG6N8EF1PF0",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1655271091727",
+            "alias": "AC_off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTYFNNRF452VG6N8EF1PF0",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "d2813e4c846dc0ff543d9208c6ad2ea2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:12:06.965688+00:00",
+            "finish": "2022-07-23T06:12:07.211573+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "28190ff9d744c3178b80f90d70e17d60",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:12:19.769804+00:00",
+            "finish": "2022-07-23T06:12:20.001681+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2022-07-23T06:12:19.769901+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_webhook",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:12:06.965946+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1655271091727",
+                      "friendly_name": "AC_off"
+                    },
+                    "last_changed": "2022-07-23T06:12:01.417348+00:00",
+                    "last_updated": "2022-07-23T06:12:07.210701+00:00",
+                    "context": {
+                      "id": "01G8MTYFNNRF452VG6N8EF1PF0",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": "webhook",
+                    "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU",
+                    "data": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "query": {
+                      "__type": "<class 'multidict._multidict.MultiDictProxy'>",
+                      "repr": "<MultiDictProxy()>"
+                    },
+                    "description": "webhook",
+                    "id": "0",
+                    "idx": "0"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:12:19.771412+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTYW5S79BJD4HEZ0W107SZ",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1655271091727",
+            "alias": "AC_off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTYW5S79BJD4HEZ0W107SZ",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "28190ff9d744c3178b80f90d70e17d60",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:12:19.769804+00:00",
+            "finish": "2022-07-23T06:12:20.001681+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1655271091727",
+          "trigger": "webhook"
+        }
+      }
+    ],
+    "automation.1658554807849": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "e7dfbc44c3809d1a1c8720666c45d343",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T05:50:31.009042+00:00",
+            "finish": "2022-07-23T05:50:31.296910+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658554807849",
+          "trigger": null,
+          "trace": {
+            "trigger": [
+              {
+                "path": "trigger",
+                "timestamp": "2022-07-23T05:50:31.009199+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1658554807849",
+                      "friendly_name": "AC_on"
+                    },
+                    "last_changed": "2022-07-23T05:40:07.904992+00:00",
+                    "last_updated": "2022-07-23T05:40:07.904992+00:00",
+                    "context": {
+                      "id": "01G8MS3XK0M0ZGN5A95TMQPK64",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T05:50:31.014237+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MSPY30J8ERN9S6BM87VRVY",
+                    "parent_id": "01G8MSPY2YT3STSY753E8YQ7GG",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1658554807849",
+            "alias": "AC_on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-on-oCu1C7kMpnzVE_C77wA_1rDI"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat_cool"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MSPY30J8ERN9S6BM87VRVY",
+            "parent_id": "01G8MSPY2YT3STSY753E8YQ7GG",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "e7dfbc44c3809d1a1c8720666c45d343",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T05:50:31.009042+00:00",
+            "finish": "2022-07-23T05:50:31.296910+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658554807849",
+          "trigger": null
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "255363acc8b47be6fa20a31997d40e4f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T05:53:28.842889+00:00",
+            "finish": "2022-07-23T05:53:29.081936+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658554807849",
+          "trigger": null,
+          "trace": {
+            "trigger": [
+              {
+                "path": "trigger",
+                "timestamp": "2022-07-23T05:53:28.842994+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T05:50:31.009432+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1658554807849",
+                      "friendly_name": "AC_on"
+                    },
+                    "last_changed": "2022-07-23T05:40:07.904992+00:00",
+                    "last_updated": "2022-07-23T05:50:31.295455+00:00",
+                    "context": {
+                      "id": "01G8MSPY30J8ERN9S6BM87VRVY",
+                      "parent_id": "01G8MSPY2YT3STSY753E8YQ7GG",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T05:53:28.845128+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MSWBRAQA258JJWNGZJJ2ZY",
+                    "parent_id": "01G8MSWBR7G7JSDHKV50QZHYT9",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1658554807849",
+            "alias": "AC_on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-on-oCu1C7kMpnzVE_C77wA_1rDI"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat_cool"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MSWBRAQA258JJWNGZJJ2ZY",
+            "parent_id": "01G8MSWBR7G7JSDHKV50QZHYT9",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "255363acc8b47be6fa20a31997d40e4f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T05:53:28.842889+00:00",
+            "finish": "2022-07-23T05:53:29.081936+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658554807849",
+          "trigger": null
+        }
+      }
+    ],
+    "automation.1658556332533": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "62de7a761b3e453122289548f76efc29",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:06:10.830321+00:00",
+            "finish": "2022-07-23T06:06:11.068146+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658556332533",
+          "trigger": null,
+          "trace": {
+            "trigger": [
+              {
+                "path": "trigger",
+                "timestamp": "2022-07-23T06:06:10.830375+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T05:53:28.843235+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1658556332533",
+                      "friendly_name": "AC_on"
+                    },
+                    "last_changed": "2022-07-23T06:05:32.582628+00:00",
+                    "last_updated": "2022-07-23T06:05:32.582628+00:00",
+                    "context": {
+                      "id": "01G8MTJEH6TRCWGVWH9WV8TBX4",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:06:10.831848+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MTKKWEZ20PE1F0QH0NSGF3",
+                    "parent_id": "01G8MTKKWB4YN318D1DMVT6QTM",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1658556332533",
+            "alias": "AC_on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-on-x2E4ZQZMYBKGtxytKjXb_Lta"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MTKKWEZ20PE1F0QH0NSGF3",
+            "parent_id": "01G8MTKKWB4YN318D1DMVT6QTM",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "62de7a761b3e453122289548f76efc29",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:06:10.830321+00:00",
+            "finish": "2022-07-23T06:06:11.068146+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658556332533",
+          "trigger": null
+        }
+      }
+    ],
+    "automation.1658556873826": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "9742c1bb8fc128c4a171f5b9aaf745bf",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:15:46.974167+00:00",
+            "finish": "2022-07-23T06:15:47.435733+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658556873826",
+          "trigger": null,
+          "trace": {
+            "trigger": [
+              {
+                "path": "trigger",
+                "timestamp": "2022-07-23T06:15:46.974311+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.ac_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2022-07-23T06:06:10.830479+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1658556873826",
+                      "friendly_name": "AC_on"
+                    },
+                    "last_changed": "2022-07-23T06:14:33.892986+00:00",
+                    "last_updated": "2022-07-23T06:14:33.892986+00:00",
+                    "context": {
+                      "id": "01G8MV2Z54EAC26SN1C3HCTWKH",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "platform": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2022-07-23T06:15:46.977679+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01G8MV56GY831WX7JNN1CDM3S5",
+                    "parent_id": "01G8MV56GW1YPN7QRM0EN7RZ12",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1658556873826",
+            "alias": "AC_on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "webhook",
+                "webhook_id": "ac-on-kxNGGNNWQDYgRXM3muSYjnFb"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "device_id": "12788f3b5048cdc6eb9e529df277c814",
+                "domain": "climate",
+                "entity_id": "climate.daikin_ac",
+                "type": "set_hvac_mode",
+                "hvac_mode": "heat"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01G8MV56GY831WX7JNN1CDM3S5",
+            "parent_id": "01G8MV56GW1YPN7QRM0EN7RZ12",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "9742c1bb8fc128c4a171f5b9aaf745bf",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2022-07-23T06:15:46.974167+00:00",
+            "finish": "2022-07-23T06:15:47.435733+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1658556873826",
+          "trigger": null
+        }
+      }
+    ]
+  }
+}
