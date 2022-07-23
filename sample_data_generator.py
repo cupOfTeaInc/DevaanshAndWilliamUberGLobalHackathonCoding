@@ -1,18 +1,14 @@
-import pandas as pd
 import random
-
-DATA_FILE_PATH = "sample_usage_data.json"
+import pandas as pd
+DATA_FILE_PATH = "sample_usage_data.csv"
 
 sample_data = {}
 
-for i in range(0, 288):
-    sample_data[i] = {}
-    sample_data[i]["device"] = "AC"
-    sample_data[i]["action"] = random.choice(["On", "Off"])
-    sample_data[i]["mins"] = i * 5
+for j in range(0, 2016):
+    sample_data[str(j)] = {}
+    sample_data[str(j)]["Device"] = "AC"
+    sample_data[str(j)]["State"] = random.choice(["On", "Off"])
+    sample_data[str(j)]["Time"] = (j * 5)
 
-df = pd.DataFrame(data=sample_data)
-
-with open(DATA_FILE_PATH, "w") as f:
-    f.write(str(sample_data))
-
+df = pd.DataFrame(data = sample_data)
+df.to_csv(DATA_FILE_PATH)
