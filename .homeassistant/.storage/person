@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Devaansh Gupta",
+                "user_id": "122438e1ba164c158f457ffe06084d19",
+                "device_trackers": [],
+                "id": "devaansh_gupta"
+            }
+        ]
+    }
+}
