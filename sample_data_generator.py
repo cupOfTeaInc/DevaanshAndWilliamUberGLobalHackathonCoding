@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-DATA_FILE_PATH = "sample_usage_data.csv"
+DATA_FILE_PATH = "sample_usage_data.json"
 
 sample_data = {}
 
