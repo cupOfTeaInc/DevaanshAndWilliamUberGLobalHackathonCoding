@@ -12,13 +12,13 @@ REFRESH_RATE        : int = 150
 schedule            : dict = json.load(open(SCHEDULE_FILE_PATH))
 hooks               : dict = json.load(open(HOOKS_FILE_PATH))
 
-async def trigger_hook(device, turn_on : int = 1):
+async def trigger_hook(device, turn_on : int = 1): # Trigger webhooks
     if turn_on:    post(hooks["hook_base"]+hooks["devices"][device]["ON"]) #if int returs true if the value is nonzero 
     else      :    post(hooks["hook_base"]+hooks["devices"][device]["OFF"])
 
-async def execute_schedule(device : str) :
+async def execute_schedule(device : str) : # Executes schedule for a specific device
     while running:
-        for i in range(len(schedule[device])):
+        for i in range(len(schedule[device])): # Checks if an action needs to be carried right now
             now = datetime.now()
             increments_since_midnight = int((now - now.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()/300) #300 = 60seconds/minute * 5minutes/increment
             
@@ -27,7 +27,7 @@ async def execute_schedule(device : str) :
                 await trigger_hook(device, schedule[device][i])
         await asyncio.sleep(REFRESH_RATE)
 
-async def execute_all():
+async def execute_all(): # Executes all device schedules. They can be executed simultaneously thanks to the asyncio module
     for device in hooks["devices"].keys():
         print(device)
         await execute_schedule(device)
