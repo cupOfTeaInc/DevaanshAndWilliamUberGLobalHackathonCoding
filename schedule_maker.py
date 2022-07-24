@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-DATA_FILE_PATH     : str = "sample_usage_data.csv"
+DATA_FILE_PATH     : str = "sample_usage_data.csv" # if getting data from Home Assistant via data_collection.py, name would be usage_data.csv
 SCHEDULE_FILE_PATH : str = "schedule.json"
 usage_data : pd.DataFrame = pd.read_csv(DATA_FILE_PATH)
 
