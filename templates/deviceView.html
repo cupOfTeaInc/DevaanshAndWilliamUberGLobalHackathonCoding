@@ -1,6 +1,10 @@
 <html>
     <head>
+        <meta charset="utf_8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ device["name"] }}</title>
+        <link rel="stylesheet" href="/static/indexView.css">
         <!-- <script type="text/javascript" src="static/postTo.js"></script> -->
         <script type="text/javascript">
             function postTo(url){
@@ -13,6 +17,20 @@
         </script>
     </head>
     <body>
+        <header>
+            <div class="logo">
+                <h1><a id="Home">Home</a></h1>
+                <h1><a id="AI">AI</a></h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="https://github.com/cupOfTeaInc/DevaanshAndWilliamUberGLobalHackathonCoding">Repo</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+        <div>
         <h1>{{ device["name"] }}</h1>
         {% for function in device["functions"] %}
         <!-- <form method="post" action="/device/{{device["name"]}}/{{function}}">
@@ -20,5 +38,7 @@
         </form> -->
         <button onclick="postTo('/device/{{device['name']}}/{{function}}')">{{function}}</button>
         {% endfor %}
+        </div>
+        </main>
     </body>
 </html>
