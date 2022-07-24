@@ -39,7 +39,7 @@ def weekend():
     for j in range(0, 120):                  
         sample_data[str(j)]           = {} # create dict nested in sample_data so the keys we use below exist
         sample_data[str(j)]["Device"] = "AC"
-        sample_data[str(j)]["State"]  = random.choices(["On", "Off"], weights=[0.7, 3])[0]
+        sample_data[str(j)]["State"]  = random.choices(["On", "Off"], weights=[0.7, 0.3])[0]
         sample_data[str(j)]["Time"]   = (j % 288 ) * 5
 
     for j in range(120, 1992):       
