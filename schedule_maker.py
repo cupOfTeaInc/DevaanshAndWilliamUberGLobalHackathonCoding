@@ -47,5 +47,3 @@ def make_schedule_for_all():
 
 if __name__ == "__main__":
     make_schedule_for_all()
-
-

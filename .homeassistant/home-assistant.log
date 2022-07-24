@@ -2053,3 +2053,23 @@
 2022-07-24 13:02:48 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
 2022-07-24 13:06:10 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
 2022-07-24 13:06:10 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:04 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:04 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:04 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:05 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:05 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:08 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:10 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:11 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:14 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:14 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:14 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 17:02:15 WARNING (MainThread) [homeassistant.components.automation.ac_webhook] AC_off: Already running
+2022-07-24 17:02:16 WARNING (MainThread) [homeassistant.components.automation.ac_on] AC_on: Already running
+2022-07-24 19:03:52 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=25 read=polling write=<idle, bufsize=0>>
+2022-07-24 19:03:52 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=25 read=polling write=<idle, bufsize=0>>
+2022-07-24 19:04:34 WARNING (MainThread) [zeroconf] Error with socket 20 (('192.168.1.133', 5353))): [Errno 101] Network is unreachable
+Traceback (most recent call last):
+  File "/home/devaansh/anaconda3/lib/python3.9/asyncio/selector_events.py", line 1053, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network is unreachable

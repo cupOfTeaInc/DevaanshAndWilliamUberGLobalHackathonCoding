@@ -6,8 +6,6 @@ import data_collection
 from os import path
 
 def run() :
-    
-
     if path.exists('schedule.json'):
         pass
     else:
