@@ -1,142 +1,34 @@
-2022-07-23 17:38:34 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from ip6-localhost (::1). (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36)
-2022-07-23 17:38:39 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from ip6-localhost (::1). (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36)
-2022-07-23 17:38:44 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from ip6-localhost (::1). (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36)
-2022-07-23 17:38:58 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140598287003760] Error setting up trigger
+2022-07-23 18:20:40 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140198111772384] Error setting up trigger
 Traceback (most recent call last):
   File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
     async_register(
   File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
     raise ValueError("Handler is already defined!")
 ValueError: Handler is already defined!
-2022-07-23 17:39:19 ERROR (MainThread) [homeassistant.components.automation.ac_webhook] Error setting up trigger AC_off
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 17:40:07 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 17:41:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:41:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:42:06 WARNING (MainThread) [zeroconf] Error with socket 15 (('192.168.1.122', 5353))): [Errno 101] Network is unreachable
+2022-07-23 19:27:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:27:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:29:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:29:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:30:59 WARNING (MainThread) [zeroconf] Error with socket 15 (('192.168.1.124', 5353))): [Errno 101] Network is unreachable
 Traceback (most recent call last):
   File "/usr/lib/python3.10/asyncio/selector_events.py", line 1053, in sendto
     self._sock.sendto(data, addr)
 OSError: [Errno 101] Network is unreachable
-2022-07-23 17:43:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:43:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:45:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:45:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:47:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:47:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:49:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:49:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:51:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:51:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:53:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:53:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:54:01 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140598287003760] Error setting up trigger
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 17:55:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:55:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:57:12 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 17:57:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:57:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:59:36 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140598287003760] Error setting up trigger
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 17:59:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 17:59:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:00:29 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:01:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:01:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:02:14 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:02:39 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:03:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:03:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:05:32 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:05:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:05:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:07:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:07:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:08:41 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:09:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:09:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:11:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:11:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:12:01 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140598295363440] Error setting up trigger
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:13:21 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140598295363440] Error setting up trigger
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:13:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:13:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:14:33 ERROR (MainThread) [homeassistant.components.automation.ac_on] Error setting up trigger AC_on
-Traceback (most recent call last):
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/trigger.py", line 55, in async_attach_trigger
-    async_register(
-  File "/srv/homeassistant/lib/python3.10/site-packages/homeassistant/components/webhook/__init__.py", line 44, in async_register
-    raise ValueError("Handler is already defined!")
-ValueError: Handler is already defined!
-2022-07-23 18:15:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
-2022-07-23 18:15:51 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:31:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:31:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:33:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:33:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:35:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:35:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:37:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:37:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:39:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:39:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:41:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:41:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:43:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:43:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:45:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:45:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:47:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2022-07-23 19:47:41 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network is unreachable, transport: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
