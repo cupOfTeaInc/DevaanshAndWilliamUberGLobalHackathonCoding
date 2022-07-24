@@ -1,4 +1,7 @@
 # HomeAI
+##Intro
+Hello Judge, this is our submission for the coding category. You will not be able to run it as you require a specific AC(the only compatible device to hand). Thank you for taking the time to read our submission. The majority of commits are done by willeader, this does not represent to contributions because we used the VScode liveshare extension hosted on WILLEADER's device -who was the only one that pushed during the sessions to avoid problems.
+
 ## Setting up Home Assistant
 Home Assistant was set up in the Core configuration for Linux [instructions here](https://www.home-assistant.io/installation/linux#install-home-assistant-core).
 
