@@ -1,13 +1,24 @@
 <html>
     <head>
         <title>{{ device["name"] }}</title>
+        <!-- <script type="text/javascript" src="static/postTo.js"></script> -->
+        <script type="text/javascript">
+            function postTo(url){
+                //https://stackoverflow.com/a/38982661 -John G (im not very good at js)
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", url, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send();
+            }
+        </script>
     </head>
     <body>
         <h1>{{ device["name"] }}</h1>
         {% for function in device["functions"] %}
-        <form method="post" action="/device/{{device["name"]}}/{{function}}">
+        <!-- <form method="post" action="/device/{{device["name"]}}/{{function}}">
            <button type="Submit">{{function}}</button> 
-        </form>
+        </form> -->
+        <button onclick="postTo('/device/{{device['name']}}/{{function}}')">{{function}}</button>
         {% endfor %}
     </body>
 </html>

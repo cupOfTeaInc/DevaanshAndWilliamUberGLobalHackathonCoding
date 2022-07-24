@@ -30,5 +30,8 @@ async def execute_all():
     for device in hooks["devices"].keys():
         await execute_schedule(device)
 
-if __name__ == "__main__":
+def main():
     asyncio.run(execute_schedule("AC"))
+
+if __name__ == "__main__":
+    main()
