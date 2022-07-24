@@ -144,7 +144,7 @@
         "access_token_expiration": 1800.0,
         "token": "3437e4475f22e831f711fe81630e4d59e4417c92e7d2a9d2a35b26f7ae38382267247caabba63c8270e84fd1ab368eaf3c7626380b3efebbafeb926b9731e86d",
         "jwt_key": "98227e466c7c2882dc245c8dc0cbabf6e9e1098a4246ca7ca71eb2f81a979c11dc14b35da70d60a6c86e836800924b8d111b3f6b5c923f7b466cc3a1474277e1",
-        "last_used_at": "2022-07-24T00:41:41.847883+00:00",
+        "last_used_at": "2022-07-24T01:30:48.825456+00:00",
         "last_used_ip": "::1",
         "credential_id": "a34e9af87e4e4df99b1c710208316c40",
         "version": "2022.7.6"

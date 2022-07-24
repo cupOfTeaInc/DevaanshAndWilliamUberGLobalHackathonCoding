@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-from numpy import outer
 import pandas as pd
 import json
 
