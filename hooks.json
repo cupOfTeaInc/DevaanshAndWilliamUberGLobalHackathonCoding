@@ -1,0 +1,9 @@
+{
+    "hook_base": "http://localhost:8123/api/webhook/",
+    "devices": {
+        "AC": {
+            "ON": "ac-on-kxNGGNNWQDYgRXM3muSYjnFb",
+            "OFF": "ac-off-lk4Sf5Ut4UEhRdjMpiR_p2kU"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>HomeAI -Index</title>
+    </head>
+    <body>
+        <h1>HomeAI</h1>
+        <h2>Devices:</h2>
+        <ul>
+        {% for device in devices %}
+        <li><a href={{ device["view"] }}>{{ device["name"] }}</a></li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
