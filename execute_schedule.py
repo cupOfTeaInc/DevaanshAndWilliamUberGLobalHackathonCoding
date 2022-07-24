@@ -21,7 +21,7 @@ async def execute_schedule(device : str) :
         for i in range(len(schedule[device])):
             now = datetime.now()
             increments_since_midnight = int((now - now.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()/300) #300 = 60seconds/minute * 5minutes/increment
-            print(increments_since_midnight)
+            
             if increments_since_midnight == i:
                 print(i,"|", schedule[device][i])
                 await trigger_hook(device, schedule[device][i])
