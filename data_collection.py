@@ -4,7 +4,7 @@ import pandas as pd
 
 DATA_FILE_PATH : str = "usage_data.csv"
 
-def get_usage_data(device : str, nickname : str): # Get's the sage data of a specified device from the Home Assistant database
+def get_usage_data(device : str, nickname : str): # Get's the usage data of a specified device from the Home Assistant database
     conn = sqlite3.connect('.homeassistant/home-assistant_v2.db')
 
     c    = conn.cursor()
