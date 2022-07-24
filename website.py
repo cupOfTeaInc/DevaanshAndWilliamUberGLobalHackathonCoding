@@ -14,6 +14,14 @@ def indexView():
         devices.append(d)
     return flask.render_template("indexView.html", devices=devices)
 
+@app.route("/about")
+def aboutView():
+    devices = []
+    for device in hooks["devices"].keys():
+        d = {"view":"/device/"+device, "name":device}
+        devices.append(d)
+    return flask.render_template("aboutView.html", devices=devices)
+
 @app.route("/device/<device>")
 def deviceView(device):
     if device in hooks["devices"].keys():
