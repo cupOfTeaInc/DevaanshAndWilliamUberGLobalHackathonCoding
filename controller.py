@@ -2,9 +2,12 @@ import asyncio
 import schedule_maker
 import execute_schedule
 import website 
+import data_collection
 from os import path
 
 def run() :
+    
+
     if path.exists('schedule.json'):
         pass
     else:
