@@ -18,6 +18,15 @@ li, a, button {
     text-decoration: none;
 }
 
+.text {
+    margin: 20px 8vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 24;
+    color: black;
+    text-decoration: none;
+}
+
 #Home {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -116,63 +125,3 @@ main > div {
     align-items: center;
     justify-content: space-between; 
 }
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-

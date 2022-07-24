@@ -15,18 +15,16 @@
             <nav>
                 <ul class="nav-list">
                     <li><a href="https://github.com/cupOfTeaInc/DevaanshAndWilliamUberGLobalHackathonCoding">Repo</a></li>
-                    <li><a href="/about">About</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-        <div>
-        <h2>Devices:</h2>
-        {% for device in devices %}
-        <button onclick="location.href='{{ device["view"] }}'">{{ device["name"] }}</button>
-        {% endfor %}
-        </div>
+        <h2>About</h2>
+        <p class="text">We are HomeAI and we aim to make smart homes more efficient by automating the scheduling process. Instead of mnaually scheduling which is extremely inefficient, with HomeAI, scheduling takes a click of a button. You can then continue using your devices normally for a week, and HomeAI will take it from here. Your schedule will have been created, and HomeAI executes that schedule too.</p>
+        <h2>Contact</h2>
+        <p class="text">William Leader: wdleader18@gmail.com</p>
+        <p class="text">Devaansh Gupta: devaanshnz@outlook.com</p>
         </main>
     </body>
 </html>
