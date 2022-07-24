@@ -1,14 +1,31 @@
 <html>
     <head>
+        <meta charset="utf_8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HomeAI -Index</title>
+        <link rel="stylesheet" href="/static/indexView.css">
     </head>
     <body>
-        <h1>HomeAI</h1>
+        <header>
+            <div class="logo">
+                <h1><a id="Home">Home</a></h1>
+                <h1><a id="AI">AI</a></h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="https://github.com/cupOfTeaInc/DevaanshAndWilliamUberGLobalHackathonCoding">Repo</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+        <div>
         <h2>Devices:</h2>
-        <ul>
         {% for device in devices %}
-        <li><a href={{ device["view"] }}>{{ device["name"] }}</a></li>
+        <button onclick="location.href='{{ device["view"] }}'">{{ device["name"] }}</button>
         {% endfor %}
-        </ul>
+        </div>
+        </main>
     </body>
 </html>
