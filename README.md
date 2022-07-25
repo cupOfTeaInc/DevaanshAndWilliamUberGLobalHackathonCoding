@@ -1,6 +1,6 @@
 # HomeAI
 ## Intro
-Hello Judges, this is our submission for the coding category of Uber Global Hackathon 2022. You will not be able to run it as you require a specific AC(the only compatible device to hand). Thank you for taking the time to read our submission. The majority of commits are done by willeader; this does not represent the contributions because we used the VScode liveshare extension hosted on WILLEADER's device - who was the only one that pushed during the sessions to avoid problems.
+Hello Judges, this is our submission for the coding category of Uber Global Hackathon 2022. You will not be able to run it as you require a specific smart home device, such as the air con (AC) we have showed in the demo. Thank you for taking the time to read our submission. The majority of commits are done by willeader; this does not represent the contributions because we used the VScode liveshare extension hosted on WILLEADER's device - who was the only one that pushed during the sessions to avoid problems.
 
 The main branch includes final code. The testing branch includes a feature that was being tested. The dev branch is where we push after making commits in our local repos.
 
