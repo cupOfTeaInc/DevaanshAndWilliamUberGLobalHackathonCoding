@@ -1,6 +1,7 @@
 import flask
 import json
 import requests
+import controller
 
 hooks = json.load(open("hooks.json"))
 
@@ -38,6 +39,13 @@ def actionView(device, action):
     except Exception as e:
         #print(e)
         return "Action Failed"
+
+@app.route("/execute")
+def execute():
+    controller.run()
+    print('clicked')
+
+    return flask.redirect("/")
 
 
 def main():

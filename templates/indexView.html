@@ -26,6 +26,7 @@
         {% for device in devices %}
         <button onclick="location.href='{{ device["view"] }}'">{{ device["name"] }}</button>
         {% endfor %}
+        <button><a href="/execute">Run HomeAI</a></button>
         </div>
         </main>
     </body>
