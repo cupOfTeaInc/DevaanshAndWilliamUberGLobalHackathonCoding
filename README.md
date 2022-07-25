@@ -11,6 +11,8 @@ Some tolls we used to work together remotel were:
 - Discord was used for video calling
 
 ## Setting up Home Assistant
+[Home Assistant](https://www.home-assistant.io/) is an open-source smart home platform that was used in this project. We thank the contributors and we appreciate that they have made it open-source with great documentation.
+
 Home Assistant was set up in the Core configuration for Linux [instructions here](https://www.home-assistant.io/installation/linux#install-home-assistant-core).
 
 Next, a [Daikin AC was integrated](https://www.home-assistant.io/integrations/daikin/#climate). This allows us to control the AC from Home Assistant with commands such as off, heat, cool, etc.
