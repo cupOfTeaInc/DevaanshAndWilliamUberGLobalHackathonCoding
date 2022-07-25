@@ -2,6 +2,8 @@
 ## Intro
 Hello Judges, this is our submission for the coding category. You will not be able to run it as you require a specific AC(the only compatible device to hand). Thank you for taking the time to read our submission. The majority of commits are done by willeader; this does not represent the contributions because we used the VScode liveshare extension hosted on WILLEADER's device - who was the only one that pushed during the sessions to avoid problems.
 
+The main branch includes final code. The testing branch includes a feature that was being tested. The dev branch is where we push after making commits in our local repos.
+
 ## Collaboration
 Some tolls we used to work together remotel were: 
 - Github was very useful for version control and we could easily share code using git push and git pull.
